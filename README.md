@@ -1,1 +1,6 @@
 # Student-Login
+This is an advanced Java-based authentication portal that simulates a secure login process. Unlike a basic login script, this version includes a security feature that limits the number of login attempts to prevent unauthorized access. This project demonstrates my ability to implement security constraints and iterative logic while pursuing my Bachelor of Science in Computer Science.
+
+Core FeaturesAttempt Limitation: Restricts the user to 3 login attempts before locking the account.Real-time Feedback: Notifies the user of how many attempts they have left after each incorrect entry.System Locking: Includes logic to "lock" the account once the attempt threshold is met, simulating a real-world security protocol.Credential Validation: Securely verifies the username and password using string comparison.
+
+Technical Skills UsedLoop Control: Utilizing a while loop to manage repeated user input until a specific condition is met.State Management: Using an integer variable to track and decrement the number of remaining attempts.Conditional Branching: Nested if-else statements to handle success, failure, and total system lockout.Input Stream Handling: Using the Scanner class to capture multiple lines of user data.
